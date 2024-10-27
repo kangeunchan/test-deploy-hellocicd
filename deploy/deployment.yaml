@@ -19,3 +19,4 @@ spec:
         image: kangeunchan/my-test-app:latest  # Docker 이미지를 지정
         ports:
         - containerPort: 3000  # app.js에서 사용하는 포트
+        imagePullPolicy: Always  # 이미지 풀링 정책 추가
